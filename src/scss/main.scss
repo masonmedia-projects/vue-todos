@@ -1,0 +1,35 @@
+@import 'animations';
+@import 'buttons';
+@import 'colors';
+@import 'text';
+@import 'utilities';
+
+html, 
+body {
+    // background: linear-gradient(to right, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%); 
+    // background: #232946;
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+// link override
+
+a {
+    color: grey;
+  }
+  
+  .router-link-exact-active {
+    color: #fff;
+  }
+  
+  a:hover,
+  .router-link-exact-active:hover {
+    color: lightgrey;
+  }
+
+//   media object styling
+
+  .media-aside {
+    margin-right: 0;
+  }

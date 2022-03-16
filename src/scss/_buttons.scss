@@ -1,0 +1,101 @@
+.btn-grape {
+    color: #ffffff;
+    background-color: #121629;
+    border-color: #121629;
+}
+
+.btn-grape:hover {
+    background-color: #23294690;
+    border-color: #23294690;
+}
+
+.btn-purple {
+    color: #232946;
+    background-color: #b8c1ec;
+    border-color: #b8c1ec;
+}
+
+.btn-purple:hover {
+    background-color: #b8c1ec90;
+    border-color: #b8c1ec90;
+}
+
+.btn-pink {
+    color: #232946;
+    background-color: #eebbc3;
+    border-color: #eebbc3;
+}
+
+.btn-pink:hover {
+    background-color: #eebbc390;
+    border-color: #eebbc390;
+}
+
+.btn-lavender {
+    color: #212529;
+    background-color: #d4d8f0;
+    border-color: #d4d8f0;
+}
+
+.btn-lavender:hover {
+    background-color: #d4d8f090;
+    border-color: #d4d8f090;
+}
+
+// dark pallette
+
+.btn-orange {
+    color: #fff;
+    background-color: #ff8906;
+    border-color: #ff8906;
+}
+
+.btn-orange:hover {
+    background-color: #ff890690;
+    border-color: #ff890690;
+}
+
+.btn-dark-orange {
+    color: #fff;
+    background-color: #f25f4c;
+    border-color: #f25f4c;
+}
+
+.btn-dark-orange:hover {
+    background-color: #f25f4c90;
+    border-color: #f25f4c90;
+}
+
+.btn-hotpink {
+    color: #fff;
+    background-color: #e53170;
+    border-color: #e53170;
+}
+
+.btn-hotpink:hover {
+    background-color: #e5317090;
+    border-color: #e5317090;
+}
+
+.btn-grey {
+    color: #212529;
+    background-color: #a7a9be;
+    border-color: #a7a9be;
+}
+
+.btn-grey:hover {
+    background-color: #a7a9be90;
+    border-color: #a7a9be90;
+}
+
+
+
+.btn {
+    width: 100%;
+    outline: 0;
+}
+
+.btn:focus, .btn.focus {
+    outline: 0;
+    box-shadow: none;
+}

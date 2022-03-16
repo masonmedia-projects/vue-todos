@@ -1,0 +1,72 @@
+// color utils
+
+.bg-glass {
+    background: rgba( 255, 255, 255, 0.9 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border-radius: 14px;
+}
+
+// backgrounds
+
+.bg-black {
+    background: #000000;
+}
+
+.bg-grape {
+    background: #232946 !important;
+}
+
+.bg-dark-grape {
+    background: #121629 !important;
+}
+
+.bg-purple {
+    background: #b8c1ec !important;
+}
+
+.bg-pink {
+    background: #eebbc3 !important;
+}
+
+.bg-lavender {
+    background: #d4d8f0 !important;
+}
+
+.bg-opaque {
+    background: #FFFFFF50;
+}
+
+// dark pallette
+
+.bg-charcoal {
+    background: #0f0e17;
+}
+
+.bg-grey {
+    background-color: #a7a9be90;
+}
+
+.bg-orange {
+    background-color: #ff8906;
+}
+
+.bg-dark-orange {
+    background-color: #f25f4c;
+}
+
+.bg-hotpink {
+    background-color: #e53170;;
+}
+
+// text
+
+.text-grape {
+    color: #232946;
+}
+
+.text-orange {
+    color: #f25f4c;
+}
