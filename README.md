@@ -1,6 +1,8 @@
-<img src="/mm_vue_todos_screen.png"
+<!-- <img src="/mm_vue_todos_screen.png"
 alt="Todo list app homepage browser photo"
-style="width: 100%; float: left; margin: 0 auto;" />
+style="width: 100%; float: left; margin: 0 auto;" /> -->
+
+![ScreenShot](mm_vue_todos_screen.png)
 
 # Vue Todo List App
 
