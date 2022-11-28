@@ -1,24 +1,20 @@
-# vue_todos
+# Vue Todo List App
+
+A collection of functional Todo Lists with different UI treatments using BootstrapVue as well as Bootstrap 5.
 
 ## Project setup
-```
-npm install
-```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Project uses Vue 2.6, Vue CLI, and Vue Router 3.2
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Deployment on gh-pages
 
-### Lints and fixes files
-```
-npm run lint
-```
+Deployment tutorial and config from [here.](https://learnvue.co/tutorials/deploy-vue-to-github-pages)
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- Add vue.config.js to root with code below using your repo name:
+
+`module.exports = {
+  publicPath: process.env.NODE_ENV === "production" ? "/REPO_NAME/" : "/",
+};`
+- run build
+- run `git add dist && git commit -m 'adding dist subtree`
+- run `git subtree push --prefix dist origin gh-pages`

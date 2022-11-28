@@ -5,12 +5,13 @@
         font-scale="3" v-b-toggle.sidebar-right></b-icon>
         <b-sidebar id="sidebar-right" right shadow backdrop backdrop-variant="dark-grape"
         bg-variant="grape" text-variant="light"
-        header-class="p-3"
+        header-class="p-3 fw-light"
         body-class="p-4"
+        title="Todo Lists"
         >
-            <ul class="list-unstyled d-flex flex-column justify-content-center align-items-start h-100">
+            <ul class="list-unstyled d-flex flex-column justify-content-end align-items-start h-100">
                 <router-link class="text-decoration-none" v-for="route in $router.options.routes" :key="route.path" :to="route.path">
-                    <li style="font-size: 7vmin" v-html="route.name"></li>
+                    <li class="fw-light lh-1 pb-2" style="font-size: 7vmin; line-height: 6min;" v-html="route.name"></li>
                 </router-link>
             </ul>
         </b-sidebar>
