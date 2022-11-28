@@ -1,4 +1,4 @@
-<img src="assets/mm_vue_todos_screen.png"
+<img src="./assets/mm_vue_todos_screen.png"
 alt="Todo list app homepage browser photo"
 style="width: 100%; float: left; margin: 0 auto;" />
 
