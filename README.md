@@ -4,8 +4,6 @@ style="width: 100%; float: left; margin: 0 auto;" /> -->
 
 ![ScreenShot](https://github.com/masonmedia/vue-todos/blob/master/public/mm_vue_todos_screen.png)
 
-https://github.com/masonmedia/vue-todos/blob/master/public/mm_vue_todos_screen.png
-
 # Vue Todo List App
 
 A collection of functional Todo Lists with different UI treatments using BootstrapVue as well as Bootstrap 5.
