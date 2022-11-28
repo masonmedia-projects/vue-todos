@@ -1,10 +1,14 @@
+<img src="assets/mm_vue_todos_screen.png"
+alt="Todo list app homepage browser photo"
+style="width: 100%; float: left; margin: 0 auto;" />
+
 # Vue Todo List App
 
 A collection of functional Todo Lists with different UI treatments using BootstrapVue as well as Bootstrap 5.
 
 ## Project setup
 
-Project uses Vue 2.6, Vue CLI, and Vue Router 3.2
+Project uses Vue 2.6, Vue CLI, and Vue Router 3.2. Development based on this [article](https://romig.dev/blog/building-a-to-do-app-with-vue-and-vuex/).
 
 ## Deployment on gh-pages
 
