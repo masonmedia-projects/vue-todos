@@ -1,25 +1,47 @@
 <template>
   <b-container fluid 
-  class="bg-grape min-vh-100 p-4 d-flex justify-content-center align-items-start">
+  class="bg-grape min-vh-100 p-3 p-md-4 d-flex justify-content-center align-items-start">
   <b-container style="max-width: 550px;">
     <b-jumbotron class="d-flex flex-column justify-content-center align-items-start bg-dark-grape text-light font-weight-bold shadow-lg mb-2 mt-5 p-4 p-md-5"
     style="min-height: 300px; border-radius: 33px 33px 5px 33px;">
       <h1 class="font-weight-light display-4 mb-3">todo<span class="text-muted">list</span></h1>
-      <div class="d-flex w-100 pb-3">
-        <b-button variant="purple" class="me-2">
+      <div class="col-lg-12 d-flex flex-wrap flex-md-nowrap w-100 pb-3 order-2 order-md-1">
+        <!-- <b-button variant="purple" class="me-2">
           Tasks <b-badge class="bg-light text-dark">{{ this.tasks.length }}</b-badge>
-        </b-button>
-        <b-button variant="pink" class="me-2">
+        </b-button> -->
+        <button type="button" class="btn btn-purple position-relative me-2">
+          Tasks
+          <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+            {{ this.tasks.length }}
+            <span class="visually-hidden">Task list</span>
+          </span>
+        </button>
+
+        <!-- <b-button variant="pink" class="me-2">
           Complete <b-badge class="bg-light text-dark">{{ tasks.filter(task => task.completed == true).length }}</b-badge>
-          <!-- Complete <b-badge variant="light">{{ completeTasks.length }}</b-badge> -->
-        </b-button>
-        <b-button variant="lavender">
+        </b-button> -->
+        <button type="button" class="btn btn-pink position-relative me-2">
+          Done
+          <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+            {{ tasks.filter(task => task.completed == true).length }}
+            <span class="visually-hidden">Task list</span>
+          </span>
+        </button>
+
+        <!-- <b-button variant="lavender">
           Remaining <b-badge class="bg-light text-dark">{{ tasks.filter(task => task.completed == false).length }}</b-badge>
-          <!-- Remaining <b-badge variant="light">{{ incompleteTasks.length }}</b-badge> -->
-        </b-button>
+          Remaining <b-badge variant="light">{{ incompleteTasks.length }}</b-badge>
+        </b-button> -->
+        <button type="button" class="btn btn-lavender position-relative me-2">
+          To do
+          <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+            {{ tasks.filter(task => task.completed == false).length }}
+            <span class="visually-hidden">Task list</span>
+          </span>
+        </button>
       </div>
 
-      <div class="input-group mb-3 mt-2">
+      <div class="input-group mb-3 mt-2 order-2 order-md-1">
         <button 
         :class="newTask.length == 0 ? 'btn-outline-light' : 'btn-light'" 
         class="btn w-25"
