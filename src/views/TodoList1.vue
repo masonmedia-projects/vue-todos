@@ -9,7 +9,7 @@
         <!-- <b-button variant="purple" class="me-2">
           Tasks <b-badge class="bg-light text-dark">{{ this.tasks.length }}</b-badge>
         </b-button> -->
-        <button type="button" class="btn btn-purple position-relative me-2">
+        <button type="button" class="btn btn-purple position-relative me-2 mb-2 mb-md-0">
           Tasks
           <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
             {{ this.tasks.length }}
@@ -20,7 +20,7 @@
         <!-- <b-button variant="pink" class="me-2">
           Complete <b-badge class="bg-light text-dark">{{ tasks.filter(task => task.completed == true).length }}</b-badge>
         </b-button> -->
-        <button type="button" class="btn btn-pink position-relative me-2">
+        <button type="button" class="btn btn-pink position-relative me-2 mb-2 mb-md-0">
           Done
           <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
             {{ tasks.filter(task => task.completed == true).length }}
@@ -32,7 +32,7 @@
           Remaining <b-badge class="bg-light text-dark">{{ tasks.filter(task => task.completed == false).length }}</b-badge>
           Remaining <b-badge variant="light">{{ incompleteTasks.length }}</b-badge>
         </b-button> -->
-        <button type="button" class="btn btn-lavender position-relative me-2">
+        <button type="button" class="btn btn-lavender position-relative me-2 mb-2 mb-md-0">
           To do
           <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
             {{ tasks.filter(task => task.completed == false).length }}
